@@ -68,6 +68,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
 
         jpBotonesOcultarYVer.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        jBotonOcultar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Documents\\GitHub\\grupo3TP-3\\img\\icons7-ocultar-contraseña-50.png")); // NOI18N
         jBotonOcultar.setText("Ocultar");
         jBotonOcultar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -75,6 +76,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
             }
         });
 
+        jBotonVer.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Desktop\\iconos_netbeans\\iconos netbeans\\icons7-mostrar-contraseña-50.png")); // NOI18N
         jBotonVer.setText("Ver");
         jBotonVer.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -87,10 +89,10 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
         jpBotonesOcultarYVerLayout.setHorizontalGroup(
             jpBotonesOcultarYVerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpBotonesOcultarYVerLayout.createSequentialGroup()
-                .addGap(150, 150, 150)
-                .addComponent(jBotonOcultar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jBotonVer, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(129, 129, 129)
+                .addComponent(jBotonOcultar)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jBotonVer, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jpBotonesOcultarYVerLayout.setVerticalGroup(
@@ -98,7 +100,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
             .addGroup(jpBotonesOcultarYVerLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpBotonesOcultarYVerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jBotonOcultar, javax.swing.GroupLayout.DEFAULT_SIZE, 54, Short.MAX_VALUE)
+                    .addComponent(jBotonOcultar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jBotonVer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -121,6 +123,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
             }
         });
 
+        jBotonRegistrar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Documents\\GitHub\\grupo3TP-3\\img\\icons8-aprobar-y-actualizar-48.png")); // NOI18N
         jBotonRegistrar.setText("Registrar");
         jBotonRegistrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -142,7 +145,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
                     .addGroup(jpVentanaDeCredencialesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jtfUsuario)
                         .addComponent(jpContraseña, javax.swing.GroupLayout.DEFAULT_SIZE, 190, Short.MAX_VALUE))
-                    .addComponent(jBotonRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jBotonRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(104, Short.MAX_VALUE))
         );
         jpVentanaDeCredencialesLayout.setVerticalGroup(
@@ -157,8 +160,8 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
                     .addComponent(jlContraseña)
                     .addComponent(jpContraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jBotonRegistrar)
-                .addContainerGap(56, Short.MAX_VALUE))
+                .addComponent(jBotonRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         jescritorio.setLayer(jpInicioDeSesion, javax.swing.JLayeredPane.DEFAULT_LAYER);

@@ -116,10 +116,10 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
-                      <Component id="jBotonOcultar" min="-2" pref="100" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jBotonVer" min="-2" pref="98" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                      <Component id="jBotonOcultar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jBotonVer" min="-2" pref="120" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -129,7 +129,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jBotonOcultar" pref="54" max="32767" attributes="0"/>
+                          <Component id="jBotonOcultar" max="32767" attributes="0"/>
                           <Component id="jBotonVer" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
@@ -140,6 +140,9 @@
           <SubComponents>
             <Component class="javax.swing.JButton" name="jBotonOcultar">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Ezequiel\Documents\GitHub\grupo3TP-3\img\icons7-ocultar-contrase&#xf1;a-50.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ocultar"/>
               </Properties>
               <Events>
@@ -148,6 +151,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="jBotonVer">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Ezequiel\Desktop\iconos_netbeans\iconos netbeans\icons7-mostrar-contrase&#xf1;a-50.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Ver"/>
               </Properties>
               <Events>
@@ -180,7 +186,7 @@
                               <Component id="jtfUsuario" max="32767" attributes="0"/>
                               <Component id="jpContraseña" pref="190" max="32767" attributes="0"/>
                           </Group>
-                          <Component id="jBotonRegistrar" min="-2" pref="124" max="-2" attributes="0"/>
+                          <Component id="jBotonRegistrar" min="-2" pref="147" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="104" max="32767" attributes="0"/>
                   </Group>
@@ -200,8 +206,8 @@
                           <Component id="jpContraseña" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jBotonRegistrar" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="56" max="32767" attributes="0"/>
+                      <Component id="jBotonRegistrar" min="-2" pref="56" max="-2" attributes="0"/>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -229,6 +235,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="jBotonRegistrar">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Ezequiel\Documents\GitHub\grupo3TP-3\img\icons8-aprobar-y-actualizar-48.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Registrar"/>
               </Properties>
               <Events>
