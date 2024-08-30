@@ -68,6 +68,7 @@ public class ConversorDeTemperatura extends javax.swing.JFrame {
             }
         });
 
+        jbConvertir.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Documents\\GitHub\\grupo3TP-3\\img\\icons8-aprobar-y-actualizar-48.png")); // NOI18N
         jbConvertir.setText("Convertir");
         jbConvertir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -95,8 +96,8 @@ public class ConversorDeTemperatura extends javax.swing.JFrame {
                         .addGap(111, 111, 111)
                         .addComponent(jtTemperatura, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPaneldeFondoLayout.createSequentialGroup()
-                        .addGap(103, 103, 103)
-                        .addComponent(jbConvertir, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(79, 79, 79)
+                        .addComponent(jbConvertir)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPaneldeFondoLayout.setVerticalGroup(
@@ -109,8 +110,8 @@ public class ConversorDeTemperatura extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(jtTemperatura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(jbConvertir)
-                .addContainerGap(111, Short.MAX_VALUE))
+                .addComponent(jbConvertir, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(69, Short.MAX_VALUE))
         );
 
         jdescritorioFondo.setLayer(jPaneldeFondo, javax.swing.JLayeredPane.DEFAULT_LAYER);

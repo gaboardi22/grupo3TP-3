@@ -83,8 +83,8 @@
                               <Component id="jtTemperatura" min="-2" pref="76" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
-                              <Component id="jbConvertir" min="-2" pref="97" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                              <Component id="jbConvertir" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="32767" attributes="0"/>
@@ -101,8 +101,8 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jtTemperatura" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jbConvertir" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="111" max="32767" attributes="0"/>
+                      <Component id="jbConvertir" min="-2" pref="69" max="-2" attributes="0"/>
+                      <EmptySpace pref="69" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -159,6 +159,9 @@
             </Component>
             <Component class="javax.swing.JButton" name="jbConvertir">
               <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Ezequiel\Documents\GitHub\grupo3TP-3\img\icons8-aprobar-y-actualizar-48.png"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Convertir"/>
               </Properties>
               <Events>

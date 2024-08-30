@@ -123,7 +123,7 @@ public class LoginDeCredenciales extends javax.swing.JFrame {
             }
         });
 
-        jBotonRegistrar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Documents\\GitHub\\grupo3TP-3\\img\\icons8-aprobar-y-actualizar-48.png")); // NOI18N
+        jBotonRegistrar.setIcon(new javax.swing.ImageIcon("C:\\Users\\Ezequiel\\Documents\\GitHub\\grupo3TP-3\\img\\icons8-cliente-windows-48.png")); // NOI18N
         jBotonRegistrar.setText("Registrar");
         jBotonRegistrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
